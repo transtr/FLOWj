@@ -1,16 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" name="Default" comment="" />
+    <list default="true" id="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" name="Default" comment="testing.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/flowj.jQuery.0.1.1.js" afterPath="$PROJECT_DIR$/js/flowj.jQuery.0.1.1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/main.scss" afterPath="$PROJECT_DIR$/scss/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/8e6577f638767a73bd2e596b0042f265ef995af7/main.scssc" afterPath="$PROJECT_DIR$/.sass-cache/8e6577f638767a73bd2e596b0042f265ef995af7/main.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="FLOWj.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/main.scss" changelist="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" time="1363157371698" ignored="false" />
+    <file path="/main.scss" changelist="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" time="1363388413947" ignored="false" />
     <file path="/reset.css" changelist="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" time="1363156208965" ignored="false" />
-    <file path="/index.html" changelist="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" time="1363157793739" ignored="false" />
-    <file path="/main.js" changelist="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" time="1363157573735" ignored="false" />
-    <file path="/flowj.jQuery.0.1.1.js" changelist="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" time="1363157735582" ignored="false" />
-    <file path="/Dummy.txt" changelist="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" time="1363158723332" ignored="false" />
+    <file path="/index.html" changelist="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" time="1363306940659" ignored="false" />
+    <file path="/main.js" changelist="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" time="1363388763212" ignored="false" />
+    <file path="/flowj.jQuery.0.1.1.js" changelist="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" time="1363388270753" ignored="false" />
+    <file path="/Dummy.txt" changelist="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" time="1363383824777" ignored="false" />
     <file path="/README" changelist="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" time="1363158710155" ignored="false" />
+    <file path="$PROJECT_DIR$/../Coke_Zero/dev2/src/Coke/BracketInsuranceBundle/Resources/views/User/dashboard.html.php" changelist="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" time="1363215164324" ignored="false" />
+    <file path="/dashboard.html.php" changelist="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" time="1363215096126" ignored="false" />
+    <file path="$PROJECT_DIR$/../Coke_Zero/dev2/web/js/ctrl_bracket.js" changelist="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" time="1363383810252" ignored="false" />
+    <file path="/ctrl_bracket.js" changelist="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" time="1363383226630" ignored="false" />
+    <file path="$PROJECT_DIR$/../Coke_Zero/dev2/web/js/main.js" changelist="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" time="1363379923412" ignored="false" />
+    <file path="$PROJECT_DIR$/../Coke_Zero/dev2/src/Coke/BracketInsuranceBundle/Resources/views/layout.html.php" changelist="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" time="1363383774588" ignored="false" />
+    <file path="/layout.html.php" changelist="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" time="1363380376963" ignored="false" />
+    <file path="$PROJECT_DIR$/../Coke_Zero/dev2/web/js/facebook.js" changelist="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" time="1363380123838" ignored="false" />
+    <file path="/facebook.js" changelist="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" time="1363379992440" ignored="false" />
+    <file path="$PROJECT_DIR$/../Coke_Zero/dev2/src/Coke/BracketInsuranceBundle/Resources/views/Default/privacy.html.php" changelist="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" time="1363379005895" ignored="false" />
+    <file path="$PROJECT_DIR$/../Coke_Zero/dev2/src/Coke/BracketInsuranceBundle/Resources/views/Default/terms.html.php" changelist="e51f4a0b-80a3-4ca1-a062-c35cf852aa58" time="1363379387477" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,16 +53,36 @@
       <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="50" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
+            <state line="24" column="65" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="97" column="0" selection-start="1930" selection-end="1930" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1363388414000" expanded="true" signature="758:803" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="38" selection-start="239" selection-end="239" vertical-scroll-proportion="0.071428575">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="8" selection-start="270" selection-end="270" vertical-scroll-proportion="0.1790451">
+            <state line="34" column="52" selection-start="2389" selection-end="2389" vertical-scroll-proportion="-21.76">
               <folding />
             </state>
           </provider>
@@ -51,25 +91,7 @@
       <file leaf-file-name="flowj.jQuery.0.1.1.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/flowj.jQuery.0.1.1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="1" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="127" vertical-scroll-proportion="0.0">
+            <state line="120" column="25" selection-start="3389" selection-end="3389" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -93,19 +115,20 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/flowj.jQuery.0.1.1.js" />
         <option value="$PROJECT_DIR$/scss/main.scss" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/js/flowj.jQuery.0.1.1.js" />
-        <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="874" />
+    <option name="width" value="2560" />
+    <option name="height" value="1414" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -201,11 +224,11 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -215,7 +238,7 @@
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -254,27 +277,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="2560" height="1414" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -339,13 +362,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="50" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
@@ -353,9 +369,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="127" vertical-scroll-proportion="0.0">
+        <state line="9" column="8" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -367,16 +383,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="127" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="0" selection-start="1930" selection-end="1930" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1363388414000" expanded="true" signature="758:803" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="270" selection-end="270" vertical-scroll-proportion="0.1790451">
+        <state line="34" column="52" selection-start="2389" selection-end="2389" vertical-scroll-proportion="-21.76">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="65" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/flowj.jQuery.0.1.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="25" selection-start="3389" selection-end="3389" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="38" selection-start="239" selection-end="239" vertical-scroll-proportion="0.071428575">
           <folding />
         </state>
       </provider>

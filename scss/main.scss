@@ -1,4 +1,36 @@
 /*****************************************************
 ** MAIN CSS FILE
 *****************************************************/
-body                              { padding: 50px; }
+body                                { padding: 50px; }
+
+
+/*****************************************************
+** flowj
+*****************************************************/
+.flow, .flowNav, .pagination        {
+	-webkit-touch-callout: none;
+	  -webkit-user-select: none;
+ 	   -khtml-user-select: none;
+	     -moz-user-select: none;
+	      -ms-user-select: none;
+	          user-select: none;
+}
+
+.flow                               { width: 100%; min-width: 320px; height: 100%; margin: 10px auto; overflow:hidden; position: relative;
+	.container                      { margin: 0 0 10px 0; padding: 0; display: inline-block; }
+	img                             { width: 100%; margin: 0; padding: 0; float: left; display: inline-block; }
+	.pagination                     { position: absolute; right: 14px; bottom: 32px;
+		> span.active               { background: red; }
+		> span                      { width: 20px; height: 20px; margin-right: 5px; background: #000; -webkit-border-radius: 100%; border-radius: 100%; display: inline-block; }
+		.num                        { color: #fff; display: none; }
+	}
+}
+
+
+
+.flowNav                            { display: inline-block; background: #999; padding: 10px 15px; cursor: pointer; margin-top: 5px; -webkit-border-radius: 5px; border-radius: 5px;
+	&:hover                         { background: red; }
+	a                               { text-decoration: none; color: #fff; }
+	&.prev                          { float: left; }
+	&.next                          { float: right; }
+}

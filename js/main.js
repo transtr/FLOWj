@@ -2,15 +2,14 @@
  ** MAIN JS FILE
  *****************************************************/
 $(document).ready(function(){
-    console.log('Hello World');
-
     // plugin options
     var flowOpts = {
-        "opacity"       : 0,
-        "distance"      : 300,
-        "duration"      : 2000
+        "pagination"            : true,
+        "transitionDuration"    : 300,
+        "easing"                : "bounce",
+        "audio"                 : false
     };
 
     // apply plugin
-    $('.text').flowj(flowOpts);
+    $('.flow').flowj(flowOpts);
 });
