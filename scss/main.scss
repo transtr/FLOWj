@@ -2,31 +2,34 @@
 ** MAIN CSS FILE
 *****************************************************/
 body                                { padding: 50px; }
-
+.debugHeader                        { background: #222; color: #33ff00; padding: 10px 20px; margin-bottom: 10px; }
+hr                                  { border: none; background: #666; height: 1px; }
 
 /*****************************************************
 ** flowj
 *****************************************************/
 .flow, .flowNav, .pagination        {
-	-webkit-touch-callout: none;
-	  -webkit-user-select: none;
- 	   -khtml-user-select: none;
-	     -moz-user-select: none;
-	      -ms-user-select: none;
-	          user-select: none;
+									  -webkit-touch-callout: none;
+									    -webkit-user-select: none;
+								         -khtml-user-select: none;
+									       -moz-user-select: none;
+									        -ms-user-select: none;
+									            user-select: none;
 }
 
-.flow                               { max-width: 500px; min-width: 320px; height: 500px; margin: 0 auto; overflow:hidden; position: relative; background: red; border: 1px solid red;
-	.container                      { margin: 0 0 10px 0; padding: 0; display: inline-block; }
+.flow                               { max-width: 1200px; min-width: 340px; height: 400px; margin: 0 auto; position: relative; background: red;
+	.viewarea                       { overflow: hidden; }
+	.container                      { width: 100%; margin: 0; padding: 0; display: inline-block; position: relative; overflow:hidden; }
+	.slide                          { position: absolute;
+		.caption                    { bottom: 0; position: absolute; background: rgba(0, 0, 0, .5); width: 100%; padding: 20px; color: white; }
+	}
 	img                             { width: 100%; margin: 0; padding: 0; float: left; display: inline-block; }
-	.pagination                     { position: absolute; right: 14px; bottom: 32px;
+	.pagination                     { position: absolute; top: -30px; left: 50%; display: inline-block;
 		> span.active               { background: red; }
-		> span                      { width: 20px; height: 20px; margin-right: 5px; background: #000; -webkit-border-radius: 100%; border-radius: 100%; display: inline-block; }
+		> span                      { width: 12px; height: 12px; margin-right: 5px; background: #ccc; -webkit-border-radius: 100%; border-radius: 100%; display: inline-block; }
 		.num                        { color: #fff; display: none; }
 	}
 }
-
-
 
 .flowNav                            { display: inline-block; background: #999; padding: 10px 15px; cursor: pointer; margin-top: 5px; -webkit-border-radius: 5px; border-radius: 5px;
 	&:hover                         { background: red; }

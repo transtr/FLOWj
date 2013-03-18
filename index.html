@@ -6,25 +6,51 @@
     <link rel="stylesheet" href="css/main.css" />
 </head>
 <body>
-    <h1>FLOWj - A jQuery plugin</h1>
-    <hr>
 
-    <div class="flow">
-        <img src="http://www.picturesofcats4you.com/wp-content/uploads/2008/07/funny-cats-wallpaper-gallery-12.jpg" alt="Lorem Ipsum 1"/>
-        <img src="http://www.picturesofcats4you.com/wp-content/uploads/2008/10/cool-cats-wallpapers-3.jpg" alt="Lorem Ipsum 2"/>
-        <img src="http://www.picturesofcats4you.com/wp-content/uploads/2008/06/funny-cat-wallpapers-7.jpg" alt="Lorem Ipsum 3"/>
-        <img src="http://dianakhayyat.files.wordpress.com/2011/05/animals_cats_small_cat_005241_.jpg" alt="Lorem Ipsum 4"/>
-        <img src="http://pages.swcp.com/~jamii/OtherCats/coco.jpg" alt="Lorem Ipsum 5"/>
-    </div>
+    <!-- debug content -->
+    <div style="clear:both; margin-bottom: 50px; padding: 20px; background-color: #ccc; min-width: 300px;">
+        <h1><code>FLOWj - A jQuery plugin</code></h1>
+        <p><code>debug</code></p><br>
 
-    <div style="clear:both; padding: 20px; background-color: #ccc;">
-        <p><code>Width = <span class="width"></span></code></p>
-        <p><code>Height = <span class="height"></span></code></p>
-        <p><code>(h/w) = <span class="val"></span></code></p>
-        <hr>
+        <p><code>options</code></p>
+        <div class="debugHeader">
+            <p><code>audio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : <span class="optsAudio"></span></code></p>
+            <p><code>caption&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : <span class="optsCaption"></span></code></p>
+            <p><code>easing&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : <span class="optsEasing"></span></code></p>
+            <p><code>pagination&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : <span class="optsPagination"></span></code></p>
+            <p><code>transitionDuration : <span class="optsDuration"></span></code></p>
+        </div>
+
+        <p><code>dimensions</code></p>
+        <div class="debugHeader">
+            <p><code>width&nbsp;&nbsp; = <span class="width"></span></code></p>
+            <p><code>height&nbsp; = <span class="height"></span></code></p>
+            <hr>
+            <p><code>f()&nbsp;&nbsp;&nbsp;&nbsp; = <span class="val"></span></code></p>
+        </div>
+        <!-- <hr>
         <p><code>New Height = <span class="newHeight"></span></code></p>
-        <p><code>Prev Width = <span class="prevWidth"></span></code></p>
+        <p><code>Prev Width = <span class="prevWidth"></span></code></p> -->
     </div>
+
+
+
+    <!-- plugin -->
+    <div class="flow">
+        <img src="http://www.picturesofcats4you.com/wp-content/uploads/2008/07/funny-cats-wallpaper-gallery-12.jpg" alt="Lorem Ipsum 1" data-caption="Lorem ipsum dolor sit amet slide 1"/>
+        <img src="http://www.picturesofcats4you.com/wp-content/uploads/2008/10/cool-cats-wallpapers-3.jpg" alt="Lorem Ipsum 2" data-caption="Lorem ipsum dolor sit amet slide 2"/>
+        <img src="http://www.picturesofcats4you.com/wp-content/uploads/2008/06/funny-cat-wallpapers-7.jpg" alt="Lorem Ipsum 3" data-caption="Short caption slide 3"/>
+        <img src="http://dianakhayyat.files.wordpress.com/2011/05/animals_cats_small_cat_005241_.jpg" alt="Lorem Ipsum 4" data-caption="Lorem ipsum dolor sit amet slide 4"/>
+        <img src="http://pages.swcp.com/~jamii/OtherCats/coco.jpg" alt="Lorem Ipsum 5" data-caption="Lorem ipsum dolor sit amet slide 5"/>
+
+        <img src="http://www.picturesofcats4you.com/wp-content/uploads/2008/07/funny-cats-wallpaper-gallery-12.jpg" alt="Lorem Ipsum 1" data-caption="Lorem ipsum dolor sit amet slide 1"/>
+        <img src="http://www.picturesofcats4you.com/wp-content/uploads/2008/10/cool-cats-wallpapers-3.jpg" alt="Lorem Ipsum 2" data-caption="Lorem ipsum dolor sit amet slide 2"/>
+        <img src="http://www.picturesofcats4you.com/wp-content/uploads/2008/06/funny-cat-wallpapers-7.jpg" alt="Lorem Ipsum 3" data-caption="Short caption slide 3"/>
+        <img src="http://dianakhayyat.files.wordpress.com/2011/05/animals_cats_small_cat_005241_.jpg" alt="Lorem Ipsum 4" data-caption="Lorem ipsum dolor sit amet slide 4"/>
+        <img src="http://pages.swcp.com/~jamii/OtherCats/coco.jpg" alt="Lorem Ipsum 5" data-caption="Lorem ipsum dolor sit amet slide 5"/>
+    </div>
+
+
 
     <!-- scripts -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

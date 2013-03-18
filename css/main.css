@@ -6,10 +6,25 @@ body {
   padding: 50px;
 }
 
+/* line 5, ../scss/main.scss */
+.debugHeader {
+  background: #222;
+  color: #33ff00;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+/* line 6, ../scss/main.scss */
+hr {
+  border: none;
+  background: #666;
+  height: 1px;
+}
+
 /*****************************************************
 ** flowj
 *****************************************************/
-/* line 10, ../scss/main.scss */
+/* line 11, ../scss/main.scss */
 .flow, .flowNav, .pagination {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -19,24 +34,42 @@ body {
   user-select: none;
 }
 
-/* line 19, ../scss/main.scss */
+/* line 20, ../scss/main.scss */
 .flow {
-  max-width: 500px;
-  min-width: 320px;
-  height: 500px;
+  max-width: 1200px;
+  min-width: 340px;
+  height: 400px;
   margin: 0 auto;
-  overflow: hidden;
   position: relative;
   background: red;
-  border: 1px solid red;
-}
-/* line 20, ../scss/main.scss */
-.flow .container {
-  margin: 0 0 10px 0;
-  padding: 0;
-  display: inline-block;
 }
 /* line 21, ../scss/main.scss */
+.flow .viewarea {
+  overflow: hidden;
+}
+/* line 22, ../scss/main.scss */
+.flow .container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+/* line 23, ../scss/main.scss */
+.flow .slide {
+  position: absolute;
+}
+/* line 24, ../scss/main.scss */
+.flow .slide .caption {
+  bottom: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 20px;
+  color: white;
+}
+/* line 26, ../scss/main.scss */
 .flow img {
   width: 100%;
   margin: 0;
@@ -44,33 +77,34 @@ body {
   float: left;
   display: inline-block;
 }
-/* line 22, ../scss/main.scss */
+/* line 27, ../scss/main.scss */
 .flow .pagination {
   position: absolute;
-  right: 14px;
-  bottom: 32px;
+  top: -30px;
+  left: 50%;
+  display: inline-block;
 }
-/* line 23, ../scss/main.scss */
+/* line 28, ../scss/main.scss */
 .flow .pagination > span.active {
   background: red;
 }
-/* line 24, ../scss/main.scss */
+/* line 29, ../scss/main.scss */
 .flow .pagination > span {
-  width: 20px;
-  height: 20px;
+  width: 12px;
+  height: 12px;
   margin-right: 5px;
-  background: #000;
+  background: #ccc;
   -webkit-border-radius: 100%;
   border-radius: 100%;
   display: inline-block;
 }
-/* line 25, ../scss/main.scss */
+/* line 30, ../scss/main.scss */
 .flow .pagination .num {
   color: #fff;
   display: none;
 }
 
-/* line 31, ../scss/main.scss */
+/* line 34, ../scss/main.scss */
 .flowNav {
   display: inline-block;
   background: #999;
@@ -80,20 +114,20 @@ body {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 32, ../scss/main.scss */
+/* line 35, ../scss/main.scss */
 .flowNav:hover {
   background: red;
 }
-/* line 33, ../scss/main.scss */
+/* line 36, ../scss/main.scss */
 .flowNav a {
   text-decoration: none;
   color: #fff;
 }
-/* line 34, ../scss/main.scss */
+/* line 37, ../scss/main.scss */
 .flowNav.prev {
   float: left;
 }
-/* line 35, ../scss/main.scss */
+/* line 38, ../scss/main.scss */
 .flowNav.next {
   float: right;
 }

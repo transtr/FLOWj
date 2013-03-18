@@ -4,10 +4,11 @@
 $(document).ready(function(){
     // plugin options
     var flowOpts = {
-        "pagination"            : true,
-        "transitionDuration"    : 600,
+        "audio"                 : false,
+        "caption"               : true,
         "easing"                : "bounce",
-        "audio"                 : false
+        "pagination"            : true,
+        "transitionDuration"    : 600
     };
 
     // apply plugin
