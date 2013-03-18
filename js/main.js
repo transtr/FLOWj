@@ -5,7 +5,7 @@ $(document).ready(function(){
     // plugin options
     var flowOpts = {
         "pagination"            : true,
-        "transitionDuration"    : 300,
+        "transitionDuration"    : 600,
         "easing"                : "bounce",
         "audio"                 : false
     };

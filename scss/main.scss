@@ -16,7 +16,7 @@ body                                { padding: 50px; }
 	          user-select: none;
 }
 
-.flow                               { width: 100%; min-width: 320px; height: 100%; margin: 10px auto; overflow:hidden; position: relative;
+.flow                               { max-width: 500px; min-width: 320px; height: 500px; margin: 0 auto; overflow:hidden; position: relative; background: red; border: 1px solid red;
 	.container                      { margin: 0 0 10px 0; padding: 0; display: inline-block; }
 	img                             { width: 100%; margin: 0; padding: 0; float: left; display: inline-block; }
 	.pagination                     { position: absolute; right: 14px; bottom: 32px;

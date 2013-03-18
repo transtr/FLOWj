@@ -21,12 +21,14 @@ body {
 
 /* line 19, ../scss/main.scss */
 .flow {
-  width: 100%;
+  max-width: 500px;
   min-width: 320px;
-  height: 100%;
-  margin: 10px auto;
+  height: 500px;
+  margin: 0 auto;
   overflow: hidden;
   position: relative;
+  background: red;
+  border: 1px solid red;
 }
 /* line 20, ../scss/main.scss */
 .flow .container {
