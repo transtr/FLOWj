@@ -5,10 +5,11 @@ $(document).ready(function(){
     // plugin options
     var flowOpts = {
         "audio"                 : false,
+        "autoplay"              : false,
         "caption"               : true,
-        "easing"                : "bounce",
+        "easing"                : "smooth",
         "pagination"            : true,
-        "transitionDuration"    : 600
+        "transitionDuration"    : 350
     };
 
     // apply plugin

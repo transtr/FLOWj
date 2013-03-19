@@ -3,7 +3,7 @@
  ** FLOWj
  **
  ** author      : Yung Tran
- ** version     : 0.1.1 (beta)
+ ** version     : 0.2.0 (beta)
  ** copyright   : 2013
  ** company     : NA
  *************************************************************************
@@ -19,10 +19,19 @@
         // options params
         // -------------------------------------------------------------------
         var audio               = opts["audio"];
+        var autoplay            = opts["autoplay"];
         var caption             = opts["caption"];
         var easing              = opts["easing"];
         var transDur            = opts["transitionDuration"];
         var paginationOpt       = opts["pagination"];
+
+        switch(easing){
+            case "back"     : easing = "easeOutBack"; break;
+            case "bounce"   : easing = "easeOutBounce"; break;
+            case "elastic"  : easing = "easeOutElastic"; break;
+            case "smooth"   : easing = "easeInOutQuint"; break;
+            default         : easing = "easeOutSine"; break;
+        }
 
 
         // global plugin variables
@@ -33,6 +42,8 @@
         var imagesArrayLength;
         var $nav;
         var globalTimer         = null;
+        var paginationMarkCounter = 0;
+        var autoplayslider;
 
 
         // container dimensions
@@ -57,6 +68,7 @@
             $(".val").html(newHeight);
             // *************************************************************
             $(".optsAudio").html(audio.toString());
+            $(".optsAutoplay").html(autoplay.toString());
             $(".optsCaption").html(caption.toString());
             $(".optsEasing").html(easing.toString());
             $(".optsPagination").html(paginationOpt.toString());
@@ -89,6 +101,30 @@
                     previousDimensions = newDimensions;
                 }
             };
+
+
+            // nav event
+            $nav.on("click", function(e){
+                e.preventDefault();
+                var next    = $(this).hasClass("next");
+                transDur    = opts["transitionDuration"];
+
+                next ? slideTransition("next") : slideTransition("prev");
+
+                if (paginationMarkCounter === 0){
+                    $(".prev").hide();
+                }
+                if (paginationMarkCounter > 0){
+                    $(".prev").show();
+                }
+                if (paginationMarkCounter === imagesArrayLength){
+                    $(".next").hide();
+                }
+                if (paginationMarkCounter < imagesArrayLength){
+                    $(".next").show();
+                }
+            });
+
         };
 
 
@@ -136,7 +172,22 @@
             if(caption === true){
                 $.each($(".slide"), function(){
                     var caption = $("img", this).attr("data-caption");
-                    $(this).append("<div class=\"caption\">" + caption + "</div>");
+                    $(this).append("<div class=\"caption\"><p>" + caption + "</p></div>");
+                });
+            }
+
+
+            if(autoplay === true){
+                transDur = 800;
+                autoplayslider = setInterval( function(){ slideTransition("next"); }, 5000 );
+
+                $this.on({
+                    "mouseenter" : function(){
+                        clearInterval(autoplayslider);
+                    },
+                    "mouseleave" : function(){
+                        autoplayslider = setInterval( function(){ slideTransition("next"); }, 5000 );
+                    }
                 });
             }
 
@@ -160,12 +211,39 @@
             $(".slide0").addClass("current").css({"left" : 0});
         };
 
+        var slideTransition = function(direction){
+            var $currentSlide = $(".slide.current");
+
+            if($currentSlide.hasClass("current")){
+                if(direction === "next"){
+                    if(paginationMarkCounter < imagesArrayLength){
+                        paginationMarkCounter += 1;
+                    }
+
+                    $currentSlide.removeClass("current").stop(true).animate({ "left": -($this.width()) }, transDur, easing);
+                    $currentSlide.next().stop(true).animate({ "left": 0 }, transDur, easing, function(){ $(this).addClass("current"); });
+                } else if(direction === "prev"){
+                    if(paginationMarkCounter > 0){
+                        paginationMarkCounter -= 1;
+                    }
+
+                    $currentSlide.removeClass("current").stop(true).animate({ "left": $this.width() }, transDur, easing);
+                    $currentSlide.prev().stop(true).animate({ "left": 0 }, transDur, easing, function(){ $(this).addClass("current"); });
+                }
+            }
+
+            $('.pagination > span').removeClass("active");
+            $('.pagination > span').eq(paginationMarkCounter).addClass("active");
+        };
+
 
 
         var pagination = function(){
             for(i=0;i<imagesArrayLength;i+=1){
                 $(".pagination").append("<span><span class=\"num\">" + i + "</span></span>");
             }
+
+            $(".pagination span").eq(0).addClass("active");
 
             $(".pagination").css({"marginLeft": -($(".pagination").width() / 2)});
             // $('.pagination > span').eq(curSlide - 1).addClass("active");
@@ -196,25 +274,6 @@
             //$(".prevWidth").html(prevWidth);
             //$(".newHeight").html(parseInt((h/(previousDimensions.width + 1)) * w));
 
-
-
-            // var oldContainerWidth = combinedImageWidth;
-            // var newLeft = 0;
-
-    //        $.each(image, function(){
-    //            $(this).css({"width": $this.width() });
-    //            // adjust container size
-    //            combinedImageWidth += $(this).width();
-    //        });
-
-    //        if( combinedImageWidth > oldContainerWidth){
-    //            newLeft = combinedImageWidth - oldContainerWidth;
-    //        } else {
-    //            newLeft = oldContainerWidth - combinedImageWidth;
-    //        }
-
-
-
             //$(".container", $this).css({"width": combinedImageWidth, "marginLeft": combinedImageWidth > oldContainerWidth ? $(".container").css("marginLeft") - newLeft : $(".container").css("marginLeft") + newLeft });
         };
 
@@ -228,8 +287,6 @@
         init();
 
 
-
-
         /*
         var left = 0;
 
@@ -238,10 +295,7 @@
         var paginationAmount    = 0;
         var curSlide            = 1;
 
-        switch(easing){
-            case "bounce"   : easing = "easeOutBack"; break;
-            default         : easing = "easeOutSine"; break;
-        }
+
 
 
 
@@ -361,9 +415,6 @@
                     $('body').append('<embed src="http://www.villagegeek.com/downloads/webwavs/AHHH3.WAV" autostart="true" hidden="true" loop="false">');
                 }
              }
-            //console.log(curSlide);
-            $('.pagination > span').removeClass("active");
-            $('.pagination > span').eq(curSlide - 1).addClass("active");
         });
 
         */

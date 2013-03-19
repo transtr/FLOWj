@@ -1,7 +1,7 @@
 /*****************************************************
 ** MAIN CSS FILE
 *****************************************************/
-body                                { padding: 50px; }
+body                                { padding: 30px 50px 50px; }
 .debugHeader                        { background: #222; color: #33ff00; padding: 10px 20px; margin-bottom: 10px; }
 hr                                  { border: none; background: #666; height: 1px; }
 
@@ -21,7 +21,9 @@ hr                                  { border: none; background: #666; height: 1p
 	.viewarea                       { overflow: hidden; }
 	.container                      { width: 100%; margin: 0; padding: 0; display: inline-block; position: relative; overflow:hidden; }
 	.slide                          { position: absolute;
-		.caption                    { bottom: 0; position: absolute; background: rgba(0, 0, 0, .5); width: 100%; padding: 20px; color: white; }
+		.caption                    { bottom: 0; position: absolute; background: rgba(0, 0, 0, .5); width: 100%; color: white;
+          p                         { padding: 20px; }
+        }
 	}
 	img                             { width: 100%; margin: 0; padding: 0; float: left; display: inline-block; }
 	.pagination                     { position: absolute; top: -30px; left: 50%; display: inline-block;
